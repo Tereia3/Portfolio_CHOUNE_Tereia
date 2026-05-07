@@ -835,3 +835,289 @@ body {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* ================= RESPONSIVE ================= */
+
+/* Empêche les débordements horizontaux */
+html, body {
+	overflow-x: hidden;
+}
+
+/* Images adaptables */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Tablette */
+@media screen and (max-width: 1024px) {
+
+	.navbar {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	.logo {
+		font-size: 1.2rem;
+	}
+
+	.nav-links {
+		gap: 10px;
+		font-size: 1rem;
+	}
+
+	.titre_principal h1 {
+		width: 100%;
+		font-size: 900%;
+	}
+
+	.titre_principal p {
+		width: 100%;
+		font-size: 250%;
+	}
+
+	.scoB,
+	.proH,
+	.proB,
+	.technoH,
+	.juriB,
+	.certif_cont,
+	.contact_cont {
+		flex-wrap: wrap;
+		height: auto;
+		padding: 30px 0;
+	}
+
+	.scolaire1,
+	.scolaire2,
+	.scolaire3,
+	.scolaire4,
+	.scolaire5,
+	.pro1,
+	.pro2,
+	.pro3,
+	.pro4,
+	.pro5,
+	.pro6,
+	.pro7,
+	.techno1,
+	.techno2,
+	.techno3,
+	.techno4,
+	.techno5,
+	.juri1,
+	.juri2,
+	.juri3,
+	.certif1,
+	.certif2,
+	.certif3,
+	.contact1,
+	.contact2,
+	.contact3 {
+		width: 40%;
+	}
+}
+
+/* Téléphone */
+@media screen and (max-width: 768px) {
+
+	.menu {
+		height: auto;
+	}
+
+	.navbar {
+		flex-direction: column;
+		height: auto;
+		padding: 15px;
+		gap: 15px;
+	}
+
+	.logo {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	.nav-links {
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+		font-size: 1.2rem;
+	}
+
+	.nav-links a {
+		padding: 5px;
+	}
+
+	.cont_texte {
+		height: 600px;
+		padding: 20px;
+	}
+
+	.titre_principal h1 {
+		width: 100%;
+		height: auto;
+		font-size: 450%;
+	}
+
+	.titre_principal p {
+		width: 100%;
+		height: auto;
+		font-size: 180%;
+	}
+
+	.Page_profil,
+	.Page_parcours,
+	.Page_certification,
+	.Page_veille,
+	.Page_contact,
+	.Page_projet,
+	.Page_compétences {
+		height: auto;
+		min-height: 100vh;
+		padding-bottom: 40px;
+	}
+
+	.profil_cont_gd {
+		flex-direction: column;
+		align-items: center;
+		height: auto;
+	}
+
+	.profil_gauche,
+	.profil_droite {
+		width: 90%;
+		height: auto;
+		min-height: 250px;
+		font-size: 20px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.parcours_cont,
+	.veille_cont {
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.parcours_scolaire,
+	.parcours_pro,
+	.veille_techno,
+	.veille_juri {
+		width: 90%;
+		height: auto;
+	}
+
+	.scoB,
+	.proH,
+	.proB,
+	.technoH,
+	.juriB,
+	.certif_cont,
+	.contact_cont {
+		flex-direction: column;
+		height: auto;
+		gap: 25px;
+		padding: 30px 0;
+	}
+
+	.scolaire1,
+	.scolaire2,
+	.scolaire3,
+	.scolaire4,
+	.scolaire5,
+	.pro1,
+	.pro2,
+	.pro3,
+	.pro4,
+	.pro5,
+	.pro6,
+	.pro7,
+	.techno1,
+	.techno2,
+	.techno3,
+	.techno4,
+	.techno5,
+	.juri1,
+	.juri2,
+	.juri3,
+	.certif1,
+	.certif2,
+	.certif3,
+	.contact1,
+	.contact2,
+	.contact3 {
+		width: 85%;
+		height: 250px;
+		font-size: 22px;
+	}
+
+	.profil_titre,
+	.parcours_titre,
+	.certif_titre,
+	.veille_titre {
+		height: auto;
+		padding: 40px 20px;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.titre_scolaire,
+	.titre_pro,
+	.titre_techno,
+	.titre_juri {
+		height: auto;
+		padding: 30px 10px;
+		font-size: 35px;
+		text-align: center;
+	}
+}
+
+/* solution pour les petits écrans au cas où */
+@media screen and (max-width: 480px) {
+
+	.titre_principal h1 {
+		font-size: 300%;
+	}
+
+	.titre_principal p {
+		font-size: 140%;
+	}
+
+	.logo {
+		font-size: 1.2rem;
+	}
+
+	.nav-links {
+		font-size: 1rem;
+	}
+
+	.scolaire1,
+	.scolaire2,
+	.scolaire3,
+	.scolaire4,
+	.scolaire5,
+	.pro1,
+	.pro2,
+	.pro3,
+	.pro4,
+	.pro5,
+	.pro6,
+	.pro7,
+	.techno1,
+	.techno2,
+	.techno3,
+	.techno4,
+	.techno5,
+	.juri1,
+	.juri2,
+	.juri3,
+	.certif1,
+	.certif2,
+	.certif3,
+	.contact1,
+	.contact2,
+	.contact3 {
+		width: 90%;
+		height: 220px;
+		font-size: 18px;
+	}
+}
