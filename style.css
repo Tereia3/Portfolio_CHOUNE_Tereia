@@ -1629,17 +1629,14 @@ body {
 	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
-.contact3 {
-	width: 20%;
-	height: 50px;
-	display: flex;
-	justify-content:center;
-	color:#0e0929;
-	font-family: "DM Sans", sans-serif;
-	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
-	/*background-color: #0e0929;*/
-	align-items:center;
-	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	.contact2 a {
+    color: #0e0929;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact2 a:hover {
+    color: #92acff;
 }
 
 /* ================= RESPONSIVE ================= */
