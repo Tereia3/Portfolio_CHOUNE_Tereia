@@ -256,8 +256,43 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	
+	/* les cases de l'intérieur*/
+	flex-direction: column;
+}
+
+.coll_pms_img{
+	width: 90%;
+	height: 220px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 15px; /*le texte, mais permet aussi de réduire la div également
+	background-color: #92acff;
+	align-items:center;*/
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+	.coll_pms_img img {
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+	}
+
+.coll_pms_txt{
+	width: 90%;
+	height: 130px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également
+	background-color: #92acff;
+	align-items:center;*/
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
