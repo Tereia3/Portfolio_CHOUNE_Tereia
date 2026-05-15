@@ -815,12 +815,115 @@ body {
 .Page_projet{
 	display: flex;
 	width: 100%;
-	height: 1000px;
-	justify-content:center;
+	height: 1750px;
 	flex-direction: column;
-	color:#e1f8f5;
+	align-items:flex-start;
+	color:#FFFFF0;
 	font-family: "DM Serif Display", serif;
 	background-color: #92acff;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.projet_titre{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content:center;
+	align-items:flex-end;
+	font-family: "DM Serif Display", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	/*background-color: #92acff;*/
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.projet_cont{
+	width: 100%;
+	height: 1500px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction: column;
+	/*gap: 5%; séparateur*/
+	/*background-color: #FFFFF0;*/
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.projetH{ /*div du haut*/
+	width: 90%;
+	height: 800px;
+	display: flex;
+	justify-content:center;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	align-items:center;
+	gap: 10%;
+	background-color: #92acff;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.projet1 {
+	width: 40%;
+	height: 600px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.projet2 {
+	width: 40%;
+	height: 600px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.projetB{ /*div du haut*/
+	width: 90%;
+	height: 700px;
+	display: flex;
+	justify-content:center;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	align-items:center;
+	gap: 10%;
+	background-color: #92acff;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.projet3 {
+	width: 40%;
+	height: 600px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.projet4 {
+	width: 40%;
+	height: 600px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*------------------------------------------------------------------------*/
@@ -833,21 +936,23 @@ body {
 	align-items:flex-start;
 	color:#0e0929;
 	font-family: "DM Serif Display", serif;
-	background-color: #FFFFF0;
+	background-color: #92acff;
 	gap: 2%; /*séparateur*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 	
 }
 
 .certif_titre{
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	display: flex;
 	justify-content:center;
-	align-items:center;
+	align-items:flex-end;
 	font-family: "DM Serif Display", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	color: #FFFFF0;
+	/*background-color: #0e0929;*/
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .certif_cont{
@@ -857,7 +962,7 @@ body {
 	justify-content:center;
 	align-items:center;
 	gap: 10%; /*séparateur*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .certif1 {
@@ -865,10 +970,10 @@ body {
 	height: 400px;
 	display: flex;
 	justify-content:center;
-	color:#FFFFF0;
+	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #0e0929;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -878,10 +983,10 @@ body {
 	height: 400px;
 	display: flex;
 	justify-content:center;
-	color:#FFFFF0;
+	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #0e0929;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -891,10 +996,10 @@ body {
 	height: 400px;
 	display: flex;
 	justify-content:center;
-	color:#FFFFF0;
+	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #0e0929;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -904,24 +1009,28 @@ body {
 .Page_veille{
 	display: flex;
 	width: 100%;
-	height: 2000px;
-	justify-content:center;
+	height: 1700px;
+	/*justify-content:center;*/
 	flex-direction: column;
+	align-items:flex-start;
 	color:#e1f8f5;
 	font-family: "DM Serif Display", serif;
-	background-color: #0e0929;
+	background-color: #92acff;
+	gap: 2%; /*séparateur*/
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .veille_titre{	/*ceci touche uniquement le texte pas le background-color : teste div*/
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	display: flex;
 	justify-content:center;
-	align-items:center;
+	align-items:flex-end;
 	font-family: "DM Serif Display", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	background-color: #FFFFF0;
+	color: #FFFFF0;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	/*background-color: #92acff;*/
 }
 
 .veille_cont{
@@ -931,7 +1040,7 @@ body {
 	align-items:center;
 	flex-direction: column;
 	gap: 30px; /*séparateur*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .veille_techno{
@@ -944,7 +1053,8 @@ body {
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	color: #FFFFF0;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 	gap: 20px;
 }
 
@@ -956,7 +1066,8 @@ body {
 	align-items:flex-end;
 	font-family: "DM Serif Display", sans-serif;
 	font-size: 50px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	color: #0e0929;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .technoH {
@@ -968,7 +1079,7 @@ body {
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	align-items:center;
 	gap: 60px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .techno1{
@@ -979,7 +1090,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -992,7 +1103,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1005,7 +1116,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1018,7 +1129,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1031,7 +1142,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1048,7 +1159,8 @@ body {
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	color: #FFFFF0;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 	gap: 20px;
 }
 
@@ -1060,7 +1172,8 @@ body {
 	align-items:flex-end;
 	font-family: "DM Serif Display", sans-serif;
 	font-size: 50px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	color: #0e0929;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .juriB { /*--------changer la disposition--------*/
@@ -1072,7 +1185,7 @@ body {
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
 	align-items:center;
 	gap: 60px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .juri1{
@@ -1083,7 +1196,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1096,7 +1209,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1109,7 +1222,7 @@ body {
 	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
 	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #92acff;
+	background-color: #FFFFF0;
 	align-items:center;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1119,12 +1232,351 @@ body {
 .Page_compétences{	/*COMPETENCES*/
 	display: flex;
 	width: 100%;
-	height: 1000px;
+	height: 1400px;
 	justify-content:center;
 	flex-direction: column;
+	align-items: flex-start;
 	color:#e1f8f5;
 	font-family: "DM Serif Display", serif;
-	background-color: #0e0929;
+	background-color: #92acff;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+	/*gap: 40px; séparateur*/
+}
+
+.compé_titre{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content:center;
+	align-items:flex-end;
+	color: #FFFFF0;
+	font-family: "DM Serif Display", sans-serif;
+	font-size: 30px;
+	background-color: #92acff;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.compé_cont{
+	width: 100%;
+	height: 1200px;
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	gap: 20px;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+/*------------------------------------compétences Ligne 1----------------------------*/
+.compé_L1{ /*div du haut*/
+	width: 95%;
+	height: 250px;
+	display: flex;
+	justify-content:center;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	align-items:center;
+	gap: 60px;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.compé1{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé2{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé3{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé4{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé5{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*------------------------------------compétences Ligne 2----------------------------*/
+.compé_L2{ /*div du haut*/
+	width: 95%;
+	height: 250px;
+	display: flex;
+	justify-content:center;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	align-items:center;
+	gap: 60px;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.compé6{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé7{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé8{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé9{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé10{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/*------------------------------------compétences Ligne 3----------------------------*/
+.compé_L3{ /*div du haut*/
+	width: 95%;
+	height: 250px;
+	display: flex;
+	justify-content:center;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	align-items:center;
+	gap: 60px;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.compé11{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé12{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé13{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé14{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé15{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*------------------------------------compétences Ligne 4----------------------------*/
+.compé_L4{ /*div du haut*/
+	width: 95%;
+	height: 250px;
+	display: flex;
+	justify-content:center;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	align-items:center;
+	gap: 60px;
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.compé16{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé17{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé18{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé19{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.compé20{
+	width: 20%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	color:#0e0929;
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
+	background-color: #FFFFF0;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*------------------------------------------------------------------------*/
@@ -1132,12 +1584,13 @@ body {
 .Page_contact{	/*CONTACT*/
 	display: flex;
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	justify-content:center;
 	flex-direction: column;
 	color:#0e0929;
 	font-family: "DM Serif Display", serif;
 	background-color: #FFFFF0;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact_cont{
@@ -1147,46 +1600,46 @@ body {
 	justify-content:center;
 	align-items:center;
 	gap: 15%; /*séparateur*/
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .contact1 {
 	width: 20%;
-	height: 150px;
+	height: 50px;
 	display: flex;
 	justify-content:center;
-	color:#FFFFF0;
+	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #0e0929;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+	/*background-color: #0e0929;*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .contact2 {
 	width: 20%;
-	height: 150px;
+	height: 50px;
 	display: flex;
 	justify-content:center;
-	color:#FFFFF0;
+	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #0e0929;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+	/*background-color: #0e0929;*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 .contact3 {
 	width: 20%;
-	height: 150px;
+	height: 50px;
 	display: flex;
 	justify-content:center;
-	color:#FFFFF0;
+	color:#0e0929;
 	font-family: "DM Sans", sans-serif;
-	font-size: 30px; /*le texte, mais permet aussi de réduire la div également*/
-	background-color: #0e0929;
+	font-size: 20px; /*le texte, mais permet aussi de réduire la div également*/
+	/*background-color: #0e0929;*/
 	align-items:center;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 /* ================= RESPONSIVE ================= */
